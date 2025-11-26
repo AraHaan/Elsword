@@ -709,7 +709,7 @@ accs_list_items = {
         { "id": 2, "name": "Corrupted Elrianode Weapon Guard", "set_id": 252, "icon": "corrupted_elrianode_weapon_guard", "char_icon": 0, "required_lvl": 95, "random": ["acc_tier5", "acc_elri2.5"], "fixed": [] },
         { "id": 3, "name": "Topiary of Transformation", "set_id": 253, "icon": "topiary_of_transformation", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["patk", 33, "matk", 33, "pdef", 33, "mdef", 33, "hp", 3, "as", 3] },
         { "id": 4, "name": "Mark of Inferno", "set_id": 265, "icon": "mark_of_inferno", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["alldmg", 10, "When attacking, All Resistances decrease by -15 for 10 seconds (Max 10 Stacks)", 0] },
-        { "id": 5, "name": "Mysterious El Lord Chronicle", "set_id": 266, "icon": "mysterious_el_lord_chronicle", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 1, "as", 1, "Repair Cost decrease by 10%", 0, "1% chance to decrease all skills' cooldown time by 5 seconds (Shared Item Effect) (Except Hyper Active and Extreme Heavenly Love)", 0], "pvp_fixed": ["crit", 1, "as", 1, "Repair Cost decrease by 10%", 0] },
+        //{ "id": 5, "name": "Mysterious El Lord Chronicle", "set_id": 266, "icon": "mysterious_el_lord_chronicle", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 1, "as", 1, "Repair Cost decrease by 10%", 0, "1% chance to decrease all skills' cooldown time by 5 seconds (Shared Item Effect) (Except Hyper Active and Extreme Heavenly Love)", 0], "pvp_fixed": ["crit", 1, "as", 1, "Repair Cost decrease by 10%", 0] },
         { "id": 6, "name": "Phantom Crest", "set_id": 270, "icon": "phantom_crest", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["When total All Resistance exceeds 1000, increase All Skill Damage by 15%", 0, "When attacking, All Resistances decrease by 100 for 10 seconds (Does not stack with Mark of Inferno)", 0], "pvp_fixed": ["When total All Resistance exceeds 1000, increase All Skill Damage by 15%", 0, "When attacking, All Resistances decrease by 35 for 10 seconds (Does not stack with Mark of Inferno)", 0], "buff_apply": [{ "id": 500, "option": 0 }] },
         { "id": 7, "name": "Type-Q Queen's Medal", "set_id": 272, "icon": "type_q_queen_s_medal", "char_icon": 0, "required_lvl": 99, "fixed": ["alldmg", 18, "When attacking, All Resistances decrease by 100 for 10 seconds (Does not stack with similar effects)", 0], "pvp_fixed": ["alldmg", 18, "When attacking, All Resistances decrease by 35 for 10 seconds (Does not stack with similar effects)", 0] },
     ],
@@ -717,7 +717,9 @@ accs_list_items = {
     "wepacc_ib": [
         { "id": 0, "name": "Weapon Accessory IB", "set_id": 0, "icon": "blank", "char_icon": 0, "required_lvl": 0, "fixed": [] },
         { "id": 1, "name": "Elrios Guardian Knights Weapon Accessory", "set_id":271, "icon":"elrios_guardian_knights_weapon_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "adapt", 2, "maxi", 2] },
-        { "id": 2, "name": "Grandiflora Weapon Accessory", "set_id": 73, "icon": "grandiflora_weapon_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "crit", 2, "adapt", 2, "aadmg", 2] }
+        { "id": 2, "name": "Grandiflora Weapon Accessory", "set_id": 73, "icon": "grandiflora_weapon_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "crit", 2, "adapt", 2, "aadmg", 2] },
+        { "id": 3, "name": "Mysterious El Lord Chronicle", "set_id": 266, "icon": "mysterious_el_lord_chronicle", "char_icon": 1, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 1, "as", 1, "Repair Cost decrease by 10%", 0, "1% chance to decrease all skills' cooldown time by 5 seconds (Shared Item Effect) (Except Hyper Active and Extreme Heavenly Love)", 0], "pvp_fixed": ["crit", 1, "as", 1, "Repair Cost decrease by 10%", 0] },
+
     ],
 
     "support": [
@@ -775,7 +777,7 @@ accs_list_items = {
         { "id": 27, "name": "Tamakhan's Seal", "set_id": 0, "icon": "tamakhan_seal", "char_icon": 0, "required_lvl": 0, "fixed": ["adapt", 1, "Buff - Nearby Party's Damage Reduction +5%", 0], "buff_apply": [{ "id": 400, "option": 0 }]},
         { "id": 30, "name": "Tilting Rabbit", "set_id": 0, "icon": "tilting_rabbit", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["hp", 6, "as", 3] },
         { "id": 34, "name": "Maestro Halo", "set_id": 0, "icon": "maestro_halo", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["adapt", 2, "Rhythm effect when hitting a command/active hit (Rhythm: Increases Action Speed by 3 %) (Cooldown: 1 sec.) ", 0, "Melody effect when awakened (Melody: Critical Damage increased by 2 %) ", 0, "Harmony effect when using special active skills (Harmony: All Skill Damage increases by 5 %)(Cooldown: 1 sec.) ", 0, "When receiving Rhythm, Melody, and Harmony buffs at the same time, they are replaced with Symphony  effects for 120 seconds(Symphony: Action Speed 3%, Critical Damage 2 %, All Skill Damage 5 %, Physical/Magical Attack Power 5 %) ", 0], "buff_apply": [{ "id": 664, "option": 0 }] },
-        { "id": 18, "name": "Mysterious El Lord Crown", "set_id": 266, "icon": "mysterious_el_lord_crown", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 1.5, "ms", 2, "js", 2, "5% chance to increase Attack, Movement, and Jump Speed by 20% for 20 seconds when attacking", 0], "pvp_fixed": ["crit", 1.5, "ms", 2, "js", 2] },
+        //{ "id": 18, "name": "Mysterious El Lord Crown", "set_id": 266, "icon": "mysterious_el_lord_crown", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 1.5, "ms", 2, "js", 2, "5% chance to increase Attack, Movement, and Jump Speed by 20% for 20 seconds when attacking", 0], "pvp_fixed": ["crit", 1.5, "ms", 2, "js", 2] },
 
     ],
 
@@ -803,6 +805,7 @@ accs_list_items = {
         { "id": 20, "name": "Abyssal Existence Face Top Accessory", "set_id": 68, "icon": "abyssal_existence_face_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "maxi", 2] },
         { "id": 21, "name": "Erebus Elegy Face Top Accessory", "set_id": 70, "icon": "erebus_elegy_face_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "maxi", 2] },
         { "id": 22, "name": "Elrios Guardian Knights Face Top Accessory", "set_id":271, "icon":"elrios_guardian_knights_face_top_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "crit", 3] },
+        { "id": 23, "name": "Mysterious El Lord Crown", "set_id": 266, "icon": "mysterious_el_lord_crown", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 1.5, "ms", 2, "js", 2, "5% chance to increase Attack, Movement, and Jump Speed by 20% for 20 seconds when attacking", 0], "pvp_fixed": ["crit", 1.5, "ms", 2, "js", 2] },
 
     ],
 
@@ -879,7 +882,7 @@ accs_list_items = {
         { "id": 6, "name": "Corrupted Dimension Master's Symbol", "set_id": 258, "icon": "corrupted_dimension_master_symbol", "char_icon": 1, "required_lvl": 0, "random": ["acc1.5", "acc0.5"], "fixed": ["patk", 50, "matk", 50, "pdef", 25, "mdef", 25, "maxmp", 5, "adapt", 1] },
         { "id": 7, "name": "Agate Fragment", "set_id": 0, "icon": "agate_fragment", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["adapt", 2, "pdefignore", 5, "mdefignore", 5], "pvp_fixed": ["adapt", 2] },
         { "id": 10, "name": "Sun Aura Mark", "set_id": 268, "icon": "sun_aura_mark", "char_icon": 0, "required_lvl": 0, "random": ["acc1.5"], "fixed": ["bossdmg", 1] },
-        { "id": 8, "name": "Mysterious El Lord Oracle", "set_id": 266, "icon": "mysterious_el_lord_oracle", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "as", 2, "3%  chance to recover 5% HP and 10 MP", 0], "pvp_fixed": ["crit", 2, "as", 2] },
+        //{ "id": 8, "name": "Mysterious El Lord Oracle", "set_id": 266, "icon": "mysterious_el_lord_oracle", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "as", 2, "3%  chance to recover 5% HP and 10 MP", 0], "pvp_fixed": ["crit", 2, "as", 2] },
         { "id": 11, "name": "Baryon's Fur Ornament", "set_id": 0, "icon": "baryon_fur", "char_icon": 0, "required_lvl": 0, "random": [0], "fixed": ["adapt", 2, "Every 3rd Special Active Skill used, gain 'Power Release' for 20 seconds<br>[Power Release] All Skill Damage + 5% (Cannot trigger again while buff is active)", 0], "buff_apply": [{ "id": 286, "option": 0 }] },
         { "id": 12, "name": "Radiant Lotus World Spirit Lord's Jewel - Atma of Flame", "set_id": 273, "icon": "radiant_lotus_world_spirit_lord_s_jewel_atma_of_flame", "char_icon": 0, "required_lvl": 0, "fixed": [], "random": ["atma_face_bot", "atma_face_bot", "atma_face_bot"] },
         { "id": 13, "name": "Radiant Lotus World Spirit Lord's Jewel - Atma of Darkness", "set_id": 274, "icon": "radiant_lotus_world_spirit_lord_s_jewel_atma_of_darkness", "char_icon": 0, "required_lvl": 0, "fixed": [], "random": ["atma_face_bot", "atma_face_bot", "atma_face_bot"] },
@@ -902,6 +905,7 @@ accs_list_items = {
         { "id": 9, "name": "Erebus Elegy Face Bottom Accessory", "set_id": 70, "icon": "erebus_elegy_face_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "mpr", 5] },
         { "id": 10, "name": "Elrios Guardian Knights Face Bottom Accessory", "set_id": 271, "icon": "elrios_guardian_knights_face_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 25, "matk", 25, "as", 1, "crit", 3] },
         { "id": 11, "name": "Grandiflora Face Bottom Accessory", "set_id": 73, "icon": "grandiflora_face_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 2] },
+        { "id": 13, "name": "Mysterious El Lord Oracle", "set_id": 266, "icon": "mysterious_el_lord_oracle", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "as", 2, "3%  chance to recover 5% HP and 10 MP", 0], "pvp_fixed": ["crit", 2, "as", 2] },
         { "id": 12, "name": "[ElsRift] Henir Bubble Gum (Mystery Flavor)", "set_id": 0, "icon": "henir_bubble_gum", "char_icon": 0, "required_lvl": 0, "fixed": ["adapt", 2, "maxmp", 30] }
     ],
 
@@ -922,7 +926,7 @@ accs_list_items = {
         { "id": 22, "name": "Earth Aura Earrings", "set_id": 268, "icon": "earth_aura_earrings", "char_icon": 0, "required_lvl": 0, "random": ["acc1.5"], "fixed": ["alldmg", 1] },
         { "id": 23, "name": "Military Officer Earpiece", "set_id": 0, "icon": "legion_officer_ornament", "char_icon": 0, "required_lvl": 0, "fixed": ["adapt", 2, "critdmg", 3, "When attacked, 10% chance to create a Magic Circle of Overbearing for 10 seconds at the target location. Enemies' Physical and Magical Attack Power on the Magic Circle will decrease by 10%.",0] },
         { "id": 31, "name": "Antenna Earrings", "set_id": 0, "icon": "antenna_earrings", "char_icon": 0, "required_lvl": 0, "fixed": ["adapt", 2, "critdmg", 3, "If you have the 'Reset' effect of the equipped Exascale Armor, your Special Active Skill damage increases by +8 % for 30 seconds.", 0, "If you have the 'Resistance' effect of the equipped Exascale Armor, your Special Active Skill damage increases by +8 % for 30 seconds.", 0, "If you have the 'Complete' effect of the equipped Exascale Armor, your Special Active Skill damage increases by +8 % for 30 seconds.", 0], "buff_apply": [{ "id": 665, "option": 0 }] },
-        { "id": 20, "name": "Mysterious El Lord Cuffs", "set_id": 266, "icon": "mysterious_el_lord_cuffs", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "as", 2, "3% chance to increase Physical and Magical Attack by 10% for 5 seconds", 0], "pvp_fixed": ["crit", 2, "as", 2] },
+        //{ "id": 20, "name": "Mysterious El Lord Cuffs", "set_id": 266, "icon": "mysterious_el_lord_cuffs", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "as", 2, "3% chance to increase Physical and Magical Attack by 10% for 5 seconds", 0], "pvp_fixed": ["crit", 2, "as", 2] },
 
     ],
     "faceear_ib": [
@@ -943,7 +947,9 @@ accs_list_items = {
         { "id": 14, "name": "Empire Reign Earring Accessory", "set_id": 67, "icon": "empire_reign_earring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "alldmg", 2] },
         { "id": 15, "name": "Abyssal Existence Earring Accessory", "set_id": 68, "icon": "abyssal_existence_earring_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "critdmg", 1] },
         { "id": 16, "name": "Elrios Guardian Knights Earring Accessory", "set_id":271, "icon":"elrios_guardian_knights_earring_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "crit", 2, "maxi", 2] },
-        { "id": 17, "name": "Tiger's Tale Earring Accessory ", "set_id": 71, "icon": "tiger_s_tale_earringaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 1, "alldmg", 1] }
+        { "id": 17, "name": "Tiger's Tale Earring Accessory ", "set_id": 71, "icon": "tiger_s_tale_earringaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 1, "alldmg", 1] },
+        { "id": 18, "name": "Mysterious El Lord Cuffs", "set_id": 266, "icon": "mysterious_el_lord_cuffs", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "as", 2, "3% chance to increase Physical and Magical Attack by 10% for 5 seconds", 0], "pvp_fixed": ["crit", 2, "as", 2] },
+
     ],
 
     "topacc": [
@@ -961,7 +967,7 @@ accs_list_items = {
         { "id": 60, "name": "Sirena's Authority", "set_id": 269, "icon": "sirena_authority", "char_icon": 0, "required_lvl": 0, "fixed": ["pdef", 30, "mdef", 30, "as", 1], "random": ["acc1"] },
         { "id": 77, "name": "Crushing Power", "set_id": 0, "icon": "crushing_power", "char_icon": 0, "required_lvl": 99, "fixed": ["adapt", 1, "hpflat", 2, "ms", 2] },
         { "id": 80, "name": "Queen of Gold Wings", "set_id": 0, "icon": "queen_of_gold_wings", "char_icon": 0, "required_lvl": 0, "fixed": ["crit", 4, "maxi", 4] },
-        { "id": 52, "name": "Mysterious El Lord Wings", "set_id": 266, "icon": "mysterious_el_lord_wings", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 1.5, "ms", 2, "js", 2, "5% chance to activate Random Missions", 0], "pvp_fixed": ["crit", 1.5, "ms", 2, "js", 2] },
+        //{ "id": 52, "name": "Mysterious El Lord Wings", "set_id": 266, "icon": "mysterious_el_lord_wings", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 1.5, "ms", 2, "js", 2, "5% chance to activate Random Missions", 0], "pvp_fixed": ["crit", 1.5, "ms", 2, "js", 2] },
         { "id": 79, "name": "[ElsRift] Code of Cooling Knowledge", "set_id": 0, "icon": "code_of_cooling_knowledge", "char_icon": 0, "required_lvl": 0, "fixed": ["adapt", 1, "dmg50+", 10, "dmg50", 10] },
         { "id": 81, "name": "Radiant Lotus World Spirit Lord's Mandala - Nirvana of Flame", "set_id": 273, "icon": "radiant_lotus_world_spirit_lord_s_mandala_nirvana_of_flame", "char_icon": 0, "required_lvl": 0, "fixed": ["dmg100", 10, "acdmg", 5, "adapt", 2], "random": ["drabaki_wings", "drabaki_wings", "drabaki_wings"] },
         { "id": 82, "name": "Radiant Lotus World Spirit Lord's Mandala - Nirvana of Darkness", "set_id": 274, "icon": "radiant_lotus_world_spirit_lord_s_mandala_nirvana_of_darkness", "char_icon": 0, "required_lvl": 0, "fixed": ["dmg100", 10, "acdmg", 5, "adapt", 2], "random": ["drabaki_wings", "drabaki_wings", "drabaki_wings"] },
@@ -1046,7 +1052,9 @@ accs_list_items = {
         { "id": 65, "name": "Vita Fontana Top Accessory", "set_id": 69, "icon": "vita_fontana_top_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "adapt", 1, "alldmg", 1] },
         { "id": 66, "name": "Elrios Guardian Knights Top Accessory", "set_id":271, "icon":"elrios_guardian_knights_top_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "maxi", 3] },
         { "id": 67, "name": "Tiger's Tale Top Accessory ", "set_id": 71, "icon": "tiger_s_tale_topaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 1, "alldmg", 1] },
-        { "id": 68, "name": "Grandiflora Top Accessory", "set_id": 73, "icon": "grandiflora_topaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "aadmg", 1, "acdmg", 1] }
+        { "id": 68, "name": "Grandiflora Top Accessory", "set_id": 73, "icon": "grandiflora_topaccessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 50, "matk", 50, "aadmg", 1, "acdmg", 1] },
+        { "id": 69, "name": "Mysterious El Lord Wings", "set_id": 266, "icon": "mysterious_el_lord_wings", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 1.5, "ms", 2, "js", 2, "5% chance to activate Random Missions", 0], "pvp_fixed": ["crit", 1.5, "ms", 2, "js", 2] },
+
     ],
 
     "botacc": [
@@ -1063,7 +1071,7 @@ accs_list_items = {
         { "id": 32, "name": "Electrostimulation Field", "set_id": 0, "icon": "electrostimulation_field", "char_icon": 0, "required_lvl": 0, "fixed": ["adapt", 2, "A 100% chance of HP 1% recovery when you attack (Cooldown: 2 sec.)", 0], "pvp_fixed": ["adapt", 2, "A 100% chance of HP 1% recovery when you attack (Cooldown: 20 sec.)", 0] },
         { "id": 33, "name": "Alterasia TYPE_A Spur", "set_id": 267, "icon": "secret_altera_spur", "char_icon": 0, "required_lvl": 80, "random": ["acc1", 0, 0], "fixed": ["as", 1.5] },
         { "id": 34, "name": "Ancient Antique Guardian Wingz", "set_id": 267, "icon": "secret_hamel_guardian_wingz", "char_icon": 0, "required_lvl": 80, "random": ["acc1", 0, 0], "fixed": ["maxi", 1.5] },
-        { "id": 30, "name": "Mysterious El Lord Chaser", "set_id": 266, "icon": "mysterious_el_lord_chaser", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "mpattack", 0.5, "5% chance to increase the Fever gauge", 0], "pvp_fixed": ["crit", 2, "mpattack", 0.5] },
+        //{ "id": 30, "name": "Mysterious El Lord Chaser", "set_id": 266, "icon": "mysterious_el_lord_chaser", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "mpattack", 0.5, "5% chance to increase the Fever gauge", 0], "pvp_fixed": ["crit", 2, "mpattack", 0.5] },
         { "id": 37, "name": "Glacial Aura", "set_id": 0, "icon": "frozen_aura", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["as", 4, "hp", 6, "When dashing for 3 seconds, Movement/Jump Speed +20% for 5 seconds (Cooldown: 30 sec)", 0] },
         { "id": 40, "name": "Sword of Shadow", "set_id": 0, "icon": "sword_of_shadow", "char_icon": 0, "required_lvl": 0, "fixed": ["adapt", 2, "red", 10] },
         { "id": 43, "name": "Swirling Phantasma", "set_id": 270, "icon": "swirling_phantasma", "char_icon": 0, "required_lvl": 0, "fixed": ["as", 7, "ms", 7, "js", 7, "red", 10] },
@@ -1108,6 +1116,8 @@ accs_list_items = {
         { "id": 33, "name": "Erebus Elegy Bottom Accessory", "set_id": 70, "icon": "erebus_elegy_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "alldmg", 1] },
         { "id": 34, "name": "Elrios Guardian Knights Bottom Accessory", "set_id":271, "icon":"elrios_guardian_knights_bottom_accessory", "char_icon":1, "required_lvl":0, "fixed": ["patk", 25, "matk", 25, "as", 1, "maxi", 3] },
         { "id": 35, "name": "Crest Drain Bottom Accessory", "set_id": 72, "icon": "crest_drain_bottom_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 1, "alldmg", 1] },
+        { "id": 36, "name": "Mysterious El Lord Chaser", "set_id": 266, "icon": "mysterious_el_lord_chaser", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "mpattack", 0.5, "5% chance to increase the Fever gauge", 0], "pvp_fixed": ["crit", 2, "mpattack", 0.5] },
+
     ],
 
     "arm": [
@@ -1124,7 +1134,7 @@ accs_list_items = {
         { "id": 23, "name": "Dragonic-Breath Stinger", "set_id": 267, "icon": "secret_bethma_stinger", "char_icon": 0, "required_lvl": 80, "random": ["acc1", 0, 0], "fixed": ["maxi", 1.5] },
         { "id": 25, "name": "Water Aura Arm Ornament", "set_id": 268, "icon": "water_aura_arm_ornament", "char_icon": 0, "required_lvl": 0, "random": ["acc1.5"], "fixed": ["critdmg", 1] },
         { "id": 28, "name": "New Queen's Arm Ornament", "set_id": 0, "icon": "new_queen_ornament", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["adapt", 2, "aadmg", 1], "pvp_fixed": ["adapt", 2] },
-        { "id": 19, "name": "Mysterious El Lord Seal", "set_id": 266, "icon": "mysterious_el_lord_seal", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "ms", 2, "js", 2, "doubleatk", 3], "pvp_fixed": ["crit", 2, "ms", 2, "js", 2] },
+        //{ "id": 19, "name": "Mysterious El Lord Seal", "set_id": 266, "icon": "mysterious_el_lord_seal", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "ms", 2, "js", 2, "doubleatk", 3], "pvp_fixed": ["crit", 2, "ms", 2, "js", 2] },
         { "id": 29, "name": "Radiant Lotus World Spirit Lord's Bracelet - Atma of Flame", "set_id": 273, "icon": "radiant_lotus_world_spirit_lord_s_bracelet_atma_of_flame", "char_icon": 0, "required_lvl": 0, "fixed": [], "random": ["atma_arm", "atma_arm", "atma_arm"] },
         { "id": 30, "name": "Radiant Lotus World Spirit Lord's Bracelet - Atma of Darkness", "set_id": 274, "icon": "radiant_lotus_world_spirit_lord_s_bracelet_atma_of_darkness", "char_icon": 0, "required_lvl": 0, "fixed": [], "random": ["atma_arm", "atma_arm", "atma_arm"] },
         { "id": 31, "name": "Radiant Lotus World Spirit Lord's Bracelet - Atma of Earth", "set_id": 275, "icon": "radiant_lotus_world_spirit_lord_s_bracelet_atma_of_earth", "char_icon": 0, "required_lvl": 0, "fixed": [], "random": ["atma_arm", "atma_arm", "atma_arm"] },
@@ -1155,6 +1165,8 @@ accs_list_items = {
         { "id": 17, "name": "Abyssal Existence Arm Accessory", "set_id": 68, "icon": "abyssal_existence_arm_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "aadmg", 1, "alldmg", 1] },
         { "id": 18, "name": "Elrios Guardian Knights Arm Accessory", "set_id":271, "icon":"elrios_guardian_knights_arm_accessory", "char_icon":1, "required_lvl":0, "fixed":["patk", 25, "matk", 25, "as", 1, "maxi", 3] },
         { "id": 19, "name": "Crest Drain Arm Accessory", "set_id": 72, "icon": "crest_drain_arm_accessory", "char_icon": 1, "required_lvl": 0, "fixed": ["patk", 30, "matk", 30, "acdmg", 1, "alldmg", 1] },
+        { "id": 20, "name": "Mysterious El Lord Seal", "set_id": 266, "icon": "mysterious_el_lord_seal", "char_icon": 0, "required_lvl": 0, "random": [0, 0, 0], "fixed": ["crit", 2, "ms", 2, "js", 2, "doubleatk", 3], "pvp_fixed": ["crit", 2, "ms", 2, "js", 2] },
+
     ],
 
     "neck": [
