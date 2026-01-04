@@ -336,7 +336,7 @@ equip_buff_list = [
     { "id": 82, "name": "Immersed in Nature", "category": "class", "class": ["anemos"], "icon": "immersed_in_nature", "mode": ["add", "add", "mult"], "options": ["Basic"], "stats": ["crit", "maxi", "dmg_mod"], "values": [[20, 20, 15]] },
     { "id": 273, "name": "Call of the Wind", "category": "class", "class": ["anemos"], "icon": "call_of_the_wind", "mode": ["add", "mult"], "options": ["Basic"], "stats": ["critdmg", "ms"], "values": [[20,20]] },
     { "id": 578, "name": "Nature's Force (Skill)", "category": "class", "class": ["anemos"], "icon": "natures_force_skill", "mode": "mult", "options": ["Kicks only"], "stats": ["dmg_mod"], "values": [[40]], "pvp_values": [[20]] },
-    { "id": 598, "name": "[Mod] Violent Attack", "icon": "violent_attack", "category": "class", "class": ["anemos"], "mode": "mult_red", "options": ["Defense Ignore"], "stats": ["pdefignore"], "values": [[70]], "pvp_values": [[7]] },
+    { "id": 598, "name": "Violent Attack", "icon": "violent_attack", "category": "class", "class": ["anemos"], "mode": "mult_red", "options": ["Defense Ignore", "[Mod] Defense Ignore"], "stats": ["pdefignore"], "values": [[60], [70]], "pvp_values": [[6], [7]] },
 
     //daybreaker
     { "id": 83, "name": "Awakened Will: Grand Archer", "category": "class", "class": ["daybreaker"], "icon": "awakened_will_grand_archer", "mode": "mult", "options": ["Basic"], "stats": ["alldmg_mod"], "values": [[18]], "pvp_values": [[9]] },

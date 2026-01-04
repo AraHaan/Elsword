@@ -599,7 +599,7 @@ accs_list_slot_vars = {
         "reforge": 0,
         "imprint": 0,
         "growth": 0,
-        "other": 5,
+        "other": [[1,5]],
         "img": "titles",
         "imgx": 1,
         "imgy": 0,
@@ -930,7 +930,7 @@ accs_list_slot_vars = {
         "reforge": 0,
         "imprint": 0,
         "growth": 0,
-        "other": 0,
+        "other": [[40,1]],
         "img": "items/accessories/topacc",
         "imgx": 5,
         "imgy": 1,
@@ -1466,6 +1466,11 @@ accs_list_stat = [
         "regular": true,
         "manual": true,
         "cp": 1
+    },
+    {
+        "long_name": "Hyper Adaptation",
+        "short_name": "hyperadapt",
+        "type": "percent"
     },
     {
         "long_name": "Boss Damage",
@@ -3226,7 +3231,10 @@ accs_list_stat_transform = {
         { "stat": "matk_max_maxi", "change": "add", "mods": ["matk_max"] },
 
         { "stat": "pdef_red", "change": "defcalc", "mods": ["pdef"] },
-        { "stat": "mdef_red", "change": "defcalc", "mods": ["mdef"] }
+        { "stat": "mdef_red", "change": "defcalc", "mods": ["mdef"] },
+
+        
+        { "stat": "adapt", "change": "add", "mods": ["hyperadapt"] },
 
     ],
 
